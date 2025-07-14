@@ -130,16 +130,16 @@ const Footer = ({ onGetQuoteClick }: FooterProps) => {
           </div>
 
           {/* Policy Menu - Centered and Stacked on Small Screens */}
-          <div className="flex flex-wrap justify-center gap-2 xs:gap-3 sm:gap-4 text-xs xs:text-sm">
-            <Link to="/privacy-policy" className="text-gray-400 hover:text-gray-300 transition-colors duration-300 text-center text-sm">
+          <div className="flex flex-wrap justify-center gap-2 xs:gap-3 sm:gap-4">
+            <Link to="/privacy-policy" className="text-gray-400 hover:text-gray-300 transition-colors duration-300 text-center text-base">
               Privacy Policy
             </Link>
             <span className="text-gray-600 hidden xs:inline">•</span>
-            <Link to="/terms-of-service" className="text-gray-400 hover:text-gray-300 transition-colors duration-300 text-center text-sm">
+            <Link to="/terms-of-service" className="text-gray-400 hover:text-gray-300 transition-colors duration-300 text-center text-base">
               Terms of Service
             </Link>
             <span className="text-gray-600 hidden xs:inline">•</span>
-            <Link to="/refund-policy" className="text-gray-400 hover:text-gray-300 transition-colors duration-300 text-center text-sm">
+            <Link to="/refund-policy" className="text-gray-400 hover:text-gray-300 transition-colors duration-300 text-center text-base">
               Refund Policy
             </Link>
           </div>
