@@ -73,7 +73,7 @@ const Footer = ({ onGetQuoteClick }: FooterProps) => {
           </div>
 
           {/* Right: Policy Menu */}
-          <div className="hidden md:flex justify-between items-center mb-6 lg:mb-8">
+          <div className="flex gap-3 lg:gap-6 text-xs lg:text-sm">
             <Link to="/privacy-policy" className="text-gray-400 hover:text-gray-300 transition-colors duration-300 text-sm">
               Privacy Policy
             </Link>
