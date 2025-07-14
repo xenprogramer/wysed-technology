@@ -33,19 +33,19 @@ const Footer = ({ onGetQuoteClick }: FooterProps) => {
         <div className="hidden md:flex justify-between items-center mb-6 lg:mb-8">
           {/* Left: Navigation Links */}
           <nav className="flex gap-4 lg:gap-8">
-            <Link to="/" className="text-gray-300 hover:text-white transition-colors duration-300 text-sm lg:text-base">
+            <Link to="/" className="text-gray-300 hover:text-white transition-colors duration-300 text-base">
               Home
             </Link>
-            <Link to="/about" className="text-gray-300 hover:text-white transition-colors duration-300 text-sm lg:text-base">
+            <Link to="/about" className="text-gray-300 hover:text-white transition-colors duration-300 text-base">
               About
             </Link>
-            <Link to="/services" className="text-gray-300 hover:text-white transition-colors duration-300 text-sm lg:text-base">
+            <Link to="/services" className="text-gray-300 hover:text-white transition-colors duration-300 text-base">
               Services
             </Link>
-            <Link to="/portfolio" className="text-gray-300 hover:text-white transition-colors duration-300 text-sm lg:text-base">
+            <Link to="/portfolio" className="text-gray-300 hover:text-white transition-colors duration-300 text-base">
               Portfolio
             </Link>
-            <Link to="/contact" className="text-gray-300 hover:text-white transition-colors duration-300 text-sm lg:text-base">
+            <Link to="/contact" className="text-gray-300 hover:text-white transition-colors duration-300 text-base">
               Contact
             </Link>
           </nav>
@@ -74,13 +74,13 @@ const Footer = ({ onGetQuoteClick }: FooterProps) => {
 
           {/* Right: Policy Menu */}
           <div className="flex gap-3 lg:gap-6 text-xs lg:text-sm">
-            <Link to="/privacy-policy" className="text-gray-400 hover:text-gray-300 transition-colors duration-300">
+            <Link to="/privacy-policy" className="text-gray-400 hover:text-gray-300 transition-colors duration-300 text-sm">
               Privacy Policy
             </Link>
-            <Link to="/terms-of-service" className="text-gray-400 hover:text-gray-300 transition-colors duration-300">
+            <Link to="/terms-of-service" className="text-gray-400 hover:text-gray-300 transition-colors duration-300 text-sm">
               Terms of Service
             </Link>
-            <Link to="/refund-policy" className="text-gray-400 hover:text-gray-300 transition-colors duration-300">
+            <Link to="/refund-policy" className="text-gray-400 hover:text-gray-300 transition-colors duration-300 text-sm">
               Refund Policy
             </Link>
           </div>
@@ -90,19 +90,19 @@ const Footer = ({ onGetQuoteClick }: FooterProps) => {
         <div className="md:hidden mb-6 sm:mb-8">
           {/* Navigation Links */}
           <nav className="flex flex-wrap justify-center gap-3 xs:gap-4 sm:gap-6 mb-4 xs:mb-6">
-            <Link to="/" className="text-gray-300 hover:text-white transition-colors duration-300 text-sm xs:text-base">
+            <Link to="/" className="text-gray-300 hover:text-white transition-colors duration-300 text-base">
               Home
             </Link>
-            <Link to="/about" className="text-gray-300 hover:text-white transition-colors duration-300 text-sm xs:text-base">
+            <Link to="/about" className="text-gray-300 hover:text-white transition-colors duration-300 text-base">
               About
             </Link>
-            <Link to="/services" className="text-gray-300 hover:text-white transition-colors duration-300 text-sm xs:text-base">
+            <Link to="/services" className="text-gray-300 hover:text-white transition-colors duration-300 text-base">
               Services
             </Link>
-            <Link to="/portfolio" className="text-gray-300 hover:text-white transition-colors duration-300 text-sm xs:text-base">
+            <Link to="/portfolio" className="text-gray-300 hover:text-white transition-colors duration-300 text-base">
               Portfolio
             </Link>
-            <Link to="/contact" className="text-gray-300 hover:text-white transition-colors duration-300 text-sm xs:text-base">
+            <Link to="/contact" className="text-gray-300 hover:text-white transition-colors duration-300 text-base">
               Contact
             </Link>
           </nav>
@@ -131,15 +131,15 @@ const Footer = ({ onGetQuoteClick }: FooterProps) => {
 
           {/* Policy Menu - Centered and Stacked on Small Screens */}
           <div className="flex flex-wrap justify-center gap-2 xs:gap-3 sm:gap-4 text-xs xs:text-sm">
-            <Link to="/privacy-policy" className="text-gray-400 hover:text-gray-300 transition-colors duration-300 text-center">
+            <Link to="/privacy-policy" className="text-gray-400 hover:text-gray-300 transition-colors duration-300 text-center text-sm">
               Privacy Policy
             </Link>
             <span className="text-gray-600 hidden xs:inline">•</span>
-            <Link to="/terms-of-service" className="text-gray-400 hover:text-gray-300 transition-colors duration-300 text-center">
+            <Link to="/terms-of-service" className="text-gray-400 hover:text-gray-300 transition-colors duration-300 text-center text-sm">
               Terms of Service
             </Link>
             <span className="text-gray-600 hidden xs:inline">•</span>
-            <Link to="/refund-policy" className="text-gray-400 hover:text-gray-300 transition-colors duration-300 text-center">
+            <Link to="/refund-policy" className="text-gray-400 hover:text-gray-300 transition-colors duration-300 text-center text-sm">
               Refund Policy
             </Link>
           </div>
